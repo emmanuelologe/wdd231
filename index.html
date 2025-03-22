@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course Home Page for Web and Computer Programming Certificate">
+    <meta name="author" content="Emmanuel O. Ologe">
+    <title>Course Home</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/profile.jpg" alt="Profile Picture">
+        <span>Emmanuel O. Ologe</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="https://github.com/emmanuelologe">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/emmanuel-ologe-1a8174236/">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <!-- Two-column layout for Course Work & Image -->
+        <div class="container">
+            <section class="section">
+                <h2>Course Work</h2>
+                <ul id="course-list">
+                    <li><a href="#">Week 2</a></li>
+                    <li><a href="#">Week 3</a></li>
+                    <li><a href="#">week 4</a></li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>Abuja, Nigeria</h2>
+                <img src="images/zumarock.jpg" alt="Zuma Rock">
+            </section>
+        </div>
+
+        <!-- Web and Computer Programming Certificate -->
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <button onclick="filterCourses('all')">All</button>
+                <button onclick="filterCourses('CSE')">CSE</button>
+                <button onclick="filterCourses('WDD')">WDD</button>
+            </div>
+            <div id="course-container">
+                <div class="course-item">CSE 110</div>
+                <div class="course-item">WDD 130</div>
+                <div class="course-item">CSE 111</div>
+                <div class="course-item">CSE 210</div>
+                <div class="course-item">WDD 131</div>
+                <div class="course-item">WDD 231</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Emmanuel Oluwatosin Ologe - Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
