@@ -1,0 +1,75 @@
+@media (min-width: 650px) {
+
+    .hero picture{
+        width: 100%
+    }
+    
+      .hero img {
+        width: auto;
+        height: 100%;
+    }
+    
+    .herolabel-medium {
+        position: absolute;
+        display: block;
+        top: 90px;
+        left: 30px;
+        background: radial-gradient(#fff, #855a5c);
+        border: 1px solid rgba(0,0,0,.75);
+        padding: 0.7rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+      }
+      
+      .herolabel-medium p {
+        margin: 0;
+        padding: .20rem;
+        font-weight: 700;
+        font-size: 1.1rem;
+        font-family:"Nunito Sans", serif;
+      }
+    
+      .herolabel-large, .herolabel-small  {
+        display: none;
+      }
+    
+      #moreinfo {
+        color: white;
+        margin-left: 40px;
+    }
+    
+    
+    .grid-home {
+      display: flex;
+      grid-column: 1/ 4;
+      grid-gap: 10px;
+      align-items: center;
+      margin: 20px;
+    }
+    
+    .grid-home section {
+      text-align: center;
+      outline-style:solid;
+      outline-width: thin;
+      background-color: #66101f;
+      color:#f0f2fa;
+      padding: 15px;
+      margin-top: 10px;
+      height: 100%;   
+    }
+    
+    .grid-home section > * {
+      margin: 0.1rem;
+      font-family: Poppins;
+      font-weight: 300;
+      font-size: 0.8em;
+    }
+    
+    .grid-home h3 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 0.9em;
+    }
+    
+    
+    }

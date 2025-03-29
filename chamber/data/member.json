@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Jabi Lake Mall",
+      "icon": "images/Jabilake.png",
+      "address": "Bala Sokoto Way, Jabi 900108, Abuja, Nigeria",
+      "phonenumber": "+(234) 816 550 1930",
+      "website": "https://www.jabilakemallabuja.com/",
+      "membership": "Gold",
+      "since": "2029-02-01"
+    },
+    {
+      "name": "Next Cash and Carry",
+      "icon": "images/image-removebg-preview-6.webp",
+      "address": "Opp Jss, Ahmadu Bello, Central, Abuja, Nigeria Abuja, Central 9001",
+      "phonenumber": "+(234) 9066794627",
+      "website": "https://nextcashandcarry.com.ng/",
+      "membership": "Gold",
+      "since": "2018-06-01"
+    },
+    {
+      "name": "The Capital Hub",
+      "icon": "images/capitalhub.png",
+      "address": "Plot 272, Banex/Gwarimpa Expressway, Mabushi, Abuja",
+      "phonenumber": "+(234) 80 3356 0851",
+      "website": "https://thecapitalhub.com.ng/",
+      "membership": "Silver",
+      "since": "2017-02-22"
+    },
+    {
+      "name": "Truck Central Abuja",
+      "icon": "images/truck_central.png",
+      "address": "Plot 990, off Sterling Bank Boulevard, behind Fraser Suites, Central Area, Abuja, Nigeria",
+      "phonenumber": "+234 807 141 9423",
+      "website": "https://www.truckcentral.ng/",
+      "membership": "Silver",
+      "since": "2025-03-29"
+    },
+    {
+      "name": "2K Supermart & Pharmacy",
+      "icon": "images/supermart.jpeg",
+      "address": "69 Alex Ekwueme Way, Jabi 900108, Abuja, Nigeria",
+      "phonenumber": "+234 812 345 6789",
+      "website": "https://2kfoods.co/",
+      "membership": "Bronze",
+      "since": "2025-03-29"
+    },
+    {
+      "name": "Chicken Republic 1st Avenue Gwarinpa",
+      "icon": "images/chicken_republic.png",
+      "address": "1st Avenue, Gwarinpa, Abuja, Nigeria",
+      "phonenumber": "+234 700 700 6000",
+      "website": "https://www.chicken-republic.com/",
+      "membership": "Bronze",
+      "since": "2025-03-29"
+    },
+    {
+      "name": "Monaliza Park",
+      "icon": "images/monaliza.png",
+      "address": "R.B Dikko Rd, Garki Area 11, Abuja, Nigeria",
+      "phonenumber": "Not available",
+      "website": "https://www.monolizaabuja.com/",
+      "membership": "Silver",
+      "since": "2025-03-29"
+    }
+  ]
+}
