@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Emmanuel Ologe Chamber of Commerce website for Gwarinpa a business anad residential area in Abuja Nigeria">
+    <meta name="author" content="Emmanuel Ologe">
+    <meta property="og:title" content="Emmanuel Ologe - WDD 231 - Gwarinpa Chamber of Commerce">
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="https://media.premiumtimesng.com/wp-content/files/2020/05/abuja-1589282102432.jpg">
+    <meta property="og:url" content="https://emmanuelologe.github.io/wdd230/">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalise.css">
+    <title>Gwarinpa Chamber of Commerce - Join us today! WDD230 Web Project</title>
+</head>
+<body>
+    
+    <header>
+        <div id="logo"><a href="index.html"><img src="images/logo.webp" alt="logo of Gwarinpa chamber"></a></div>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+            <!-- <div id="mode">🕶️</div> -->
+        </nav>
+        
+    </header>
+    
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero_small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero_medium.webp" media="(max-width: 680px)">
+                <img src="images\hero.webp" alt="Business Woman" width="700" height="466">
+            </picture>
+           
+        </div>
+
+            <button id="join"><a href="join.html">Join Us</a></button> 
+        
+        
+        <section id="content">
+            <div id="events">
+                <h3>Events</h3>
+                <p>Tuesday, April 5, 2025 9:00 - 10:00 AM</p>
+                <p>Jabi Lake mall</p>
+                <p>Jabi business axis, Lake Mall, ground floor, Commerce hall</p>
+                <br><hr>
+                <p><br>Saturday, April 9, 2025 1:00 - 3:00 PM </p>
+                <p>AMA Events</p>
+                <p>Sharp Corner, Gwarinpa</p>
+
+            </div>
+            <div id="weather-info">
+                <h3>Weather</h3>
+                <p>Loading weather...</p>
+            </div>
+        </section>
+        <section id="members">
+            <div class="member-card">
+                <h3>Mama Nkechi Bukks</h3>
+                <p>Anita Ogadema<br>
+                Phone: 08033489567 <br>
+                Investor Since: 2018</p>
+            </div>
+            <div class="member-card2">
+                <h3>Granite Media Partners</h3>
+                <p>The Kachella<br>
+                Phone: 0801089889 <br>
+                Investor Since: 2003</p>
+            </div>
+            <div class="member-card3">
+                <h3>Fas Bakery</h3>
+                <p>Hamira Bakery<br>
+                Work Phone: 09078702333 <br>
+                Investor Since: 2022</p>
+            </div>
+
+            <!-- <div class="grid-home" id="gridList"></div> -->
+
+           
+        </section>
+    </main>
+
+    <footer>
+        <div id="contact">
+            <p><img src="images/logo.webp" alt="small logo chamber footer">
+                 |  43 IITH CRES. KADO EST. ABUJA, NIGERIA  |  
+                (234) 9078702333</p>
+        </div>
+        <p id="copyright"></p>
+    </footer>
+    <script src="script/getdata.js"></script>
+    <script src="script/windchill.js"></script>
+</body>
+</html>
