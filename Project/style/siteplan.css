@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  header,
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h1,
+  h2 {
+    font-family: 'Playfair Display', serif;
+    color: #2e8b57; /* Main Accent Color */
+  }
+  
+  .accent {
+    color: #f4a261; /* Secondary Accent Color */
+  }
+  
+  .wireframe img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
